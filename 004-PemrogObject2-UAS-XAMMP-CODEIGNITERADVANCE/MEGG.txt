@@ -1,0 +1,36 @@
+	public function tambah()
+	{
+    if($this->input->post('submit'))
+		{
+		$data = array 
+			(
+				"Nama" => $this->input->post('input_nama'),
+				"NIM" => $this->input->post('input_nim'),
+				"Angkatan" => $this->input->post('input_angkatan'),
+				"Jurusan" => $this->input->post('input_jurusan'),
+				"Pembayaran" => $this->input->post('input_pembayaran'),
+				"Jenis" => $this->input->post('input_jenis'),
+				"Metode" => $this->input->post('input_metode'),
+			);
+			var_dump($data);
+		}else
+		{
+			echo "data kosong";
+		}
+	}
+	
+			$data = array 
+			(
+				"Nama" => $this->input->post('input_nama'),
+				"NIM" => $this->input->post('input_nim'),
+				"Angkatan" => $this->input->post('input_angkatan'),
+				"Jurusan" => $this->input->post('input_jurusan'),
+				"Pembayaran" => $this->input->post('input_pembayaran'),
+				"Jenis" => $this->input->post('input_jenis'),
+				"Metode" => $this->input->post('input_metode'),
+			);
+			var_dump($data);
+		}else
+		{
+			echo "data kosong";
+		}
